@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+.item
+{
+    background: #58d5f6;
+    color:white;
+    padding: 10px;
+}
+
+.item:nth-child(even)
+{
+    background:#236fc8;
+}
+
+.wrapper
+{
+    width: 90%;
+    margin:auto;
+}
